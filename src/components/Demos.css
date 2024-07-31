@@ -1,0 +1,33 @@
+/* src/Demos.css */
+.custom-slider .slick-slide {
+    opacity: 0.5;
+    transform: scale(0.8);
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .custom-slider .slick-center {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .custom-slider .slick-prev,
+  .custom-slider .slick-next {
+    z-index: 1;
+    top: 40%;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
