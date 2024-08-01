@@ -12,7 +12,7 @@ const Courses = () =>{
         <>
            <div>
              <div>
-                <h1 className="flex justify-center items-center font-bold text-3xl text-white">TOP COURSES</h1>
+                <h1 className="flex justify-center items-center font-bold text-3xl text-black">TOP COURSES</h1>
              </div>
              <div className="flex justify-center items-center p-4 flex-wrap  w-[83%] m-auto gap-10">
               {CourseData.map((course,index)=>(

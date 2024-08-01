@@ -28,7 +28,7 @@ const CourseContent = () => {
       {filteredCourseData.map((data, index) => (
         <div key={index} className="w-3/5 bg-[#202767] p-5 relative flex flex-col justify-center ">
           <div className="absolute top-5 left-5">
-            <Link to={"/courses"}>
+            <Link to={"/"}>
               <IoChevronBackCircle color="white" size="2.7em" />
             </Link>
           </div>

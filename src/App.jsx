@@ -1,17 +1,20 @@
 import './App.css';
+import Body from './components/Body';
 import CourseContent from './components/CourseContent';
-import Courses from './components/Courses';
+import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
+  // const [body,setBody] = useState(false);
   return (
     <BrowserRouter>
-    <div className="App bg-[#f7f7f7]  h-screen">
-      <Routes>
-        <Route path="/courses" element={<Courses />} />
-        <Route path='/info' element={<CourseContent />} />
-         {/* <CourseContent /> */}
-      </Routes>
-    </div>
+      <div className="App bg-[#f7f7f7] h-screen">
+        <Routes>
+          <Route path="/" element={<Body />} />
+          <Route path='/info' element={<CourseContent />} />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }

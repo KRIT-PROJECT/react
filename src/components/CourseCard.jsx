@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 const CourseCard = ({ title, Stars, Image }) => {
   const navigate = useNavigate();
   const handleClick =(title)=>{
+    
     navigate("/info",{
         state:{title}
     })
