@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineYoutube, AiOutlineInstagram } from 'react-icons/ai';
-import { CiLinkedin } from 'react-icons/ci';
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="flex justify-center space-x-4">
               <FaFacebookF className="text-blue-600 text-3xl" />
               <AiOutlineYoutube className="text-red-600 text-3xl" />
-              <CiLinkedin className="text-blue-600 text-3xl" />
+              <FaLinkedinIn className="text-blue-600 text-3xl" />
               <AiOutlineInstagram className="text-pink-600 text-3xl" />
             </div>
           </div>
