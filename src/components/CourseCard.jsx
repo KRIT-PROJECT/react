@@ -10,8 +10,8 @@ const CourseCard = ({ title, Stars, Image }) => {
   }
   return (
     <>
-      <div onClick={()=>handleClick(title)} className="bg-[#2c44a1] h-32 w-60 rounded-3xl cursor-pointer ">
-        <div className="bg-white h-14 w-14 relative left-[182px] flex justify-center items-center rounded-tl-2xl rounded-bl-xl rounded-tr-2xl overflow-hidden">
+      <div onClick={()=>handleClick(title)} className="bg-blue-600 h-32 w-60 rounded-3xl cursor-pointer ">
+        <div className="bg-white h-14 w-14 relative left-[186px] flex justify-center items-center rounded-tl-2xl rounded-bl-xl rounded-tr-2xl overflow-hidden">
           <img 
             src={Image} 
             alt="" 

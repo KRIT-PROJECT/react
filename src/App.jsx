@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-    <div className="App bg-[#0A0929] h-screen">
+    <div className="App bg-[#f7f7f7]  h-screen">
       <Routes>
         <Route path="/courses" element={<Courses />} />
         <Route path='/info' element={<CourseContent />} />
