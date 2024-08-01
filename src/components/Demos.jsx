@@ -11,7 +11,7 @@ const Demos = () => {
 
   const videoOptions = {
     height: '390',
-    width: '640',
+    width: '100%',
     playerVars: {
       autoplay: 0,
     },
@@ -42,13 +42,13 @@ const Demos = () => {
   };
 
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto">
       <div className="flex flex-col items-center">
-        <header className=" text-white py-6 w-full flex justify-center">
+        <header className="text-white py-6 w-full flex justify-center">
           <h1 className="text-4xl font-medium">DEMOS</h1>
         </header>
-        <div className="w-full flex justify-center ">
-          <Slider {...settings} className="w-3/4 custom-slider ">
+        <div className="w-full flex justify-center">
+          <Slider {...settings} className="w-3/4 custom-slider">
             {videoIds.map((videoId, index) => (
               <div key={index} className="p-4">
                 <div className={`video-wrapper ${index === 1 ? 'active' : ''}`}>
