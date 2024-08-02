@@ -1,3 +1,4 @@
+// <<<<<<< HEAD
 // Tailwind CSS Configuration (tailwind.config.js)
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
@@ -23,3 +24,4 @@ module.exports = {
     },
   ],
 };
+
