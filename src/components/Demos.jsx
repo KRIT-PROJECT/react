@@ -44,7 +44,7 @@ const Demos = () => {
   return (
     <div className="container mx-auto">
       <div className="flex flex-col items-center">
-        <header className="text-white py-6 w-full flex justify-center">
+        <header className=" p-20 w-full flex justify-center">
           <h1 className="text-4xl font-medium">DEMOS</h1>
         </header>
         <div className="w-full flex justify-center">

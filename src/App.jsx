@@ -44,7 +44,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App bg-[#f7f7f7] h-screen">
+      <div className="App  h-screen">
         <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/info" element={<CourseContent />} />

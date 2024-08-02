@@ -23,15 +23,15 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <div className="text-black py-10">
-      <h2 className="text-3xl font-bold mb-8 text-center">REVIEWS</h2>
-      <div className="flex flex-col md:flex-row justify-center md:space-x-9 space-y-8 md:space-y-0">
+    <div className="text-black py-10 bg-gray-100">
+      <h2 className="text-3xl font-bold mb-20 text-center text-blue-900">REVIEWS</h2>
+      <div className="flex flex-wrap justify-center gap-8 px-4">
         {reviews.map(review => (
-          <div key={review.id} className="relative bg-blue-800 p-6 rounded-lg text-center w-full md:w-64 shadow-lg pt-16">
+          <div key={review.id} className="relative bg-white p-6 rounded-lg text-center w-full sm:w-64 shadow-lg pt-16">
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <img src={review.image} alt="Reviewer" className="rounded-full w-24 h-24 border-4 border-white" />
             </div>
-            <p className="mt-12 mb-4">"{review.text}"</p>
+            <p className="mt-12 mb-4 text-gray-700">"{review.text}"</p>
             {review.rating !== null && (
               <div className="flex justify-center">
                 {Array.from({ length: review.rating }, (_, index) => (
